@@ -234,7 +234,7 @@ const LoginSignup = () => {
 
     useEffect(() => {
         if (auth?.user) {
-            return navigate("/chat");
+            return navigate("/");
         }
     }, [auth?.user, navigate]);
 
