@@ -172,7 +172,7 @@ const Header = () => {
                     ) : (
                         <>
                             <NavigationLink bg="cyan" to="/login" text="Login" textColor="black" />
-                            <NavigationLink bg="#001F3F" to="/signup" textColor="white" text="Sign Up" />
+                            <NavigationLink bg="#001F3F" to="/" textColor="white" text="Home" />
                         </>
                     )}
                 </Box>
@@ -231,9 +231,9 @@ const Header = () => {
                                 />
                                 <NavigationLink
                                     bg="#001F3F"
-                                    to="/signup"
+                                    to="/"
                                     textColor="white"
-                                    text="Sign Up"
+                                    text="Home"
                                     onClick={handleLinkClick} // Close drawer after sign-up click
                                 />
                             </>
