@@ -166,13 +166,13 @@ const Header = () => {
                 <Box sx={{ display: { xs: "none", sm: "block" } }}>
                     {auth?.isLoggedIn ? (
                         <>
-                            <NavigationLink bg="cyan" to="/chat" text="Chat" textColor="black" />
+                            <NavigationLink bg="cyan" to="/" text="Home" textColor="black" />
                             <NavigationLink bg="#001f3f" textColor="white" to="/" text="Logout" onClick={auth.logout} />
                         </>
                     ) : (
                         <>
-                            <NavigationLink bg="cyan" to="/login" text="Login" textColor="black" />
                             <NavigationLink bg="#001F3F" to="/" textColor="white" text="Home" />
+                            <NavigationLink bg="cyan" to="/login" text="Login" textColor="black" />
                         </>
                     )}
                 </Box>
@@ -223,18 +223,18 @@ const Header = () => {
                         ) : (
                             <>
                                 <NavigationLink
-                                    bg="cyan"
-                                    to="/login"
-                                    text="Login"
-                                    textColor="black"
-                                    onClick={handleLinkClick} // Close drawer after click
-                                />
-                                <NavigationLink
                                     bg="#001F3F"
                                     to="/"
                                     textColor="white"
                                     text="Home"
                                     onClick={handleLinkClick} // Close drawer after sign-up click
+                                />
+                                <NavigationLink
+                                    bg="cyan"
+                                    to="/login"
+                                    text="Login"
+                                    textColor="black"
+                                    onClick={handleLinkClick} // Close drawer after click
                                 />
                             </>
                         )}
