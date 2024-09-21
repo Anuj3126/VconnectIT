@@ -1,0 +1,40 @@
+other (valid or otherwise) reason. Computerized attendance monitoring system is adopted for 
+FFCS Academic Regulations - Version 4.0
+18
+posting the attendance by the faculty. Since no one is exempted from the minimum attendance 
+conditions stipulated as below, students who fail to maintain the minimum attendance criteria will 
+not be permitted to write the next evaluation component of the course (CAT/FAT Exam component 
+fixed by the course faculty in case of courses) and they will be considered as ‘debarred from writing 
+the exam’. The attendance software shall indicate the student status of that exam component as 
+‘Debarred’ once the student crosses below the minimum attendance requirement. Students who are 
+‘debarred’ from writing the FAT component of a course shall be awarded an “N” grade and they have 
+to re-register the course again and clear with a performance grade. The attendance percentage will 
+be calculated from the ‘date of registration’ into a course to one day before the start of the exam 
+component. The minimum attendance requirements for various components of evaluation of a 
+course are given in Table-2.
+Table 2 : Minimum Attendance Requirement
+Attendance 
+eligibility
+criteria for
+Period of calculation of absence Minimum 
+percent
+attendance 
+required
+CAT-I From the date of registration into the course 
+to one day before the start of CAT-I exams
+75%
+CAT-II From the date of registration into the course 
+to one day before the start of CAT-II exams
+75%
+FAT From the date of registration into the course 
+to the Last Instructional Day (inclusive)
+75%
+To encourage students to attend seminars, conferences, workshops, training programmes, short 
+duration courses offered by specialized institutions, etc. who otherwise shy off availing such benefits 
+due to losing of attendance in various courses, students having a CGPA of 9.00 and above (CGPA ≥ 
+9.00) and with no current backlog courses are exempted from the minimum attendance 
+requirements. It is expected that these students will continue to attend all the classes without 
+absence and will not take this as an advantage to skip classes. If such students’ CGPA falls below 9.00, 
+they will be subjected to the minimum attendance requirements again. For this purpose, the ninepointers list will be dynamically generated and applied at the time of preparation of debarred list of 
+each exam component (CAT/FAT) of a course. Hence the exemption status may change before any 
+exam component depending on the declaration of results. However, no retrospective effect will be 

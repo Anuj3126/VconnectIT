@@ -1,0 +1,167 @@
+/* LOGIN SIGNUP PAGE START*/
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 120px;
+  background: grey;
+  padding: 20px;
+  width: 90%;
+  max-width: 600px;
+  border-radius: 25px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.textSignUp {
+  color: cyan;
+  font-size: 38px;
+  font-weight: 700;
+}
+
+.textLogin {
+  color: #001F3F;
+  font-size: 38px;
+  font-weight: 700;
+}
+
+.underline {
+  width: 61px;
+  height: 6px;
+  background: cyan;
+  border-radius: 9px;
+}
+
+.underlineLogin {
+  width: 61px;
+  height: 6px;
+  background: #001F3F;
+  border-radius: 9px;
+}
+
+.inputs {
+  margin-top: 55px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  width: 100%;
+  max-width: 480px;
+  height: 50px;
+  background: #eaeaea;
+  border-radius: 6px;
+  padding: 0 15px;
+}
+
+.input img {
+  margin-right: 10px;
+  width: 15px;
+  height: 15px;
+}
+
+.input input {
+  flex-grow: 1;
+  height: 30px;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #797979;
+  font-size: 15px;
+}
+
+.signup, .login {
+  margin-top: 27px;
+  text-align: center;
+  color: white;
+  font-size: 18px;
+}
+
+.signup span, .login span {
+  color: #4c00b4;
+  cursor: pointer;
+}
+
+.submit-container {
+  display: flex;
+  gap: 30px;
+  margin: 20px auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.submitSignUp, .submitLogin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 35px;
+  border-radius: 50px;
+  font-size: 12px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.submitSignUp {
+  background: cyan;
+  color: black;
+}
+
+.submitSignUp:hover {
+  background: darkcyan;
+  color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+.submitLogin {
+  background: #001F3F;
+  color: white;
+}
+
+.submitLogin:hover {
+  background: #0056b3;
+  color: #e0e0e0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .container {
+      margin-top: 80px;
+      padding: 15px;
+  }
+  .textSignUp, .textLogin {
+      font-size: 28px;
+  }
+  .input {
+      width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+      margin-top: 50px;
+      padding: 10px;
+  }
+  .textSignUp, .textLogin {
+      font-size: 24px;
+  }
+  .submit-container {
+      flex-direction: column;
+      gap: 10px;
+  }
+}

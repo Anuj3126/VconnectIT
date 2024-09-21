@@ -1,0 +1,40 @@
+However, if the mark range for F grade of that class is <50 (based on mean- 2*sigma), then that value 
+is used to check the Grand total marks requirement instead of 50 for awarding letter grades. If a 
+course does not have an “S” grade (or) if the “S” grade boundary exceeds 100 as per the above 
+formula, the maximum of 3 or top 5% students of the class grading strength will be awarded “S” 
+grade. Before calculating the class average and standard deviation, the grand total marks obtained 
+by the student is “rounded-up” to the next integer (any fraction will move to the next integer) and 
+the same is displayed also. Marks of other evaluation components are not altered and stored up to 
+two decimal accuracy. This total is used to compare the grade band minimum and maximum limits 
+that are calculated and displayed as “rounded-off” integer (fraction of 0.5 and above will be 
+converted to the next integer and less than 0.5 will be truncated). 
+All the conditions stipulated in Section 9.4 for the Pass/Fail are applicable to relative grading also. 
+While applying relative grading, if the minimum marks corresponding to ‘E’ grade happens to be less 
+than 50, then that mark will be set as the minimum mark required to pass the course. Similarly, 
+when the class average is high, marks above 50 may result in ‘F’ grade. Under such circumstances, 
+the student will be awarded ‘E’ grade and declared pass. If the minimum of the grade band is less 
+than 100% but the maximum has exceeded 100%, then the maximum of the grade band shall be 
+reset to 100%. But, if the minimum of the grade band exceeds 100%, it indicates that the specific 
+letter grade or better letter grade(s) cannot be issued to that class. 
+If the class strength is less than or equal to 10 in a theory or lab embedded theory course absolute
+grading shall be adopted instead of the class-wise relative grading. All the Laboratory, soft skills, 
+extracurricular, non-graded core requirement (NGCR) courses and project courses shall adopt 
+absolute grading method only, irrespective of the class strength as shown in Table-6.
+Table-6: Absolute Grading – Letter Grade and its range
+Letter Grade Marks range (max. of 100)
+S >= 90
+A >= 80 but < 90
+B >= 70 but < 80
+C >= 60 but < 70
+D >= 55 but < 60
+E >= 50 but < 55
+F < 50
+9.6 Evaluation for Laboratory only Courses
+A few skill based courses may have only laboratory component without a theory and/ or tutorial 
+component. To make students attend lab classes without fail and to increase the importance given 
+to the lab classes, the practical component will be evaluated based on the performance of the 
+students in each experiment. Students who do not earn a minimum of 50% marks (average of the 
+marks awarded for all the exercises of the course) are declared as ‘Fail’ in the lab component with 
+an ‘N’ grade and they have to re-register the lab only course/or lab component of a course. As in the 
+case of Theory courses, laboratory courses will also have a Final Assessment Test. The weightage for 
+the continuous assessment will be 60% and for the Final Assessment will be 40%. All soft skill courses 

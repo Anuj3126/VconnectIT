@@ -1,0 +1,40 @@
+will be retained as it is and no second chance will be given to them to write the FAT. The ‘N’ grade 
+will be converted into a performance grade after the student takes up the Re-FAT. If a student fails 
+to write the FAT due to reasons other than the one indicated above shall be awarded ‘N’ grade by 
+treating the course as incomplete. Letter grade ‘N’ carries ‘Zero’ grade point and to clear the course, 
+the student has to register the course again in a subsequent semester and complete the same with 
+a performance grade. 
+Due to reasons beyond the control of the student/ University or due to non- academic reasons, if a 
+student could not complete the entire course within a semester, he/she may be permitted to 
+complete the remaining part of the course in a subsequent semester. This will be shown in the Grade 
+Sheet by an ‘N’ grade indicating that the course remains incomplete. This can happen in cases like 
+the theory portion of a lab embedded course is completed in a semester but the experiments could 
+not be completed within the semester.
+Grade ‘W’ is discussed in Section 7.6 and grade ‘U’ is discussed in Section 10 separately.
+9.5 Absolute and Relative Grading
+The letter grade awarded to a student for his/her performance in a course can be based on either 
+the Absolute Grading or the Relative Grading concept.
+The ‘Relative Grading’ concept indicates the academic standing of a student in his/her class. All the 
+theory component of the courses, with the class strength is more than 10, shall follow class-wise 
+relative grading concept. In Relative Grading, the following two extreme situations which normally 
+upset the students are nullified 
+1. Majority of students scoring very high marks because, either the question paper is easy or 
+the evaluator is very lenient.
+2. Majority of students scoring very low marks because of either the question paper is 
+tough or the evaluator is very strict.
+In this system, grades are awarded to students according to their performance relative to their peers 
+in the same class (class is defined as a unique combination of course-slot-faculty). Normally the class 
+average mark is taken as midpoint of ‘B’ grade, and relative to this and depending on the sigma (σ, 
+standard deviation) value, the other grades are finalized as given in Table-5. A combination of 
+absolute and relative grading systems is adopted in converting marks to grades
+FFCS Academic Regulations - Version 4.0
+24
+Table-5: Relative Grading - Letter Grade and its range
+Relative Grading formula Letter Grade
+Total Marks >= (Mean + 1.5σ) with a minimum of 90% total marks S
+Total Marks >= (Mean + 0.5σ) and Total Marks < (Mean + 1.5σ) A
+Total Marks >= (Mean - 0.5σ) and Total Marks < (Mean + 0.5σ) B
+Total Marks >= (Mean – 1.0 σ) and Total Marks < (Mean - 0.5σ) C
+Total Marks >= (Mean - 1.5σ) and Total Marks < (Mean - 1.0 σ) D
+Total Marks >= (Mean - 2.0σ) and Total Marks < (Mean - 1.5σ) E
+Total Marks < (Mean - 2.0σ) F

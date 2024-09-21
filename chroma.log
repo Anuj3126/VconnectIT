@@ -1,0 +1,299 @@
+[33mWARNING[0m:  [20-09-2024 19:06:08] chroma_server_nofile is not supported on Windows. chroma_server_nofile will not be set.
+[32mINFO[0m:     [20-09-2024 19:06:08] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[36mDEBUG[0m:    [20-09-2024 19:06:08] Starting component System
+[36mDEBUG[0m:    [20-09-2024 19:06:08] Starting component OpenTelemetryClient
+[36mDEBUG[0m:    [20-09-2024 19:06:08] Starting component SimpleAssignmentPolicy
+[36mDEBUG[0m:    [20-09-2024 19:06:08] Starting component SqliteDB
+[36mDEBUG[0m:    [20-09-2024 19:06:08] Starting component QuotaEnforcer
+[36mDEBUG[0m:    [20-09-2024 19:06:08] Starting component Posthog
+[36mDEBUG[0m:    [20-09-2024 19:06:08] Starting component LocalSegmentManager
+[36mDEBUG[0m:    [20-09-2024 19:06:08] Starting component SegmentAPI
+[32mINFO[0m:     [20-09-2024 19:06:08] Started server process [[36m17608[0m]
+[32mINFO[0m:     [20-09-2024 19:06:08] Waiting for application startup.
+[32mINFO[0m:     [20-09-2024 19:06:08] Application startup complete.
+[32mINFO[0m:     [20-09-2024 19:06:08] Uvicorn running on [1mhttp://localhost:8000[0m (Press CTRL+C to quit)
+[32mINFO[0m:     [20-09-2024 19:07:25] ::1:58843 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[31mERROR[0m:    [20-09-2024 19:08:06] Collection testrules already exists
+Traceback (most recent call last):
+  File "C:\Users\Anuj Tewari\AppData\Roaming\Python\Python312\site-packages\anyio\streams\memory.py", line 97, in receive
+    return self.receive_nowait()
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anuj Tewari\AppData\Roaming\Python\Python312\site-packages\anyio\streams\memory.py", line 92, in receive_nowait
+    raise WouldBlock
+anyio.WouldBlock
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Anuj Tewari\AppData\Roaming\Python\Python312\site-packages\starlette\middleware\base.py", line 159, in call_next
+    message = await recv_stream.receive()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anuj Tewari\AppData\Roaming\Python\Python312\site-packages\anyio\streams\memory.py", line 112, in receive
+    raise EndOfStream
+anyio.EndOfStream
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Anuj Tewari\AppData\Roaming\Python\Python312\site-packages\chromadb\server\fastapi\__init__.py", line 82, in catch_exceptions_middleware
+    return await call_next(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anuj Tewari\AppData\Roaming\Python\Python312\site-packages\starlette\middleware\base.py", line 165, in call_next
+    raise app_exc
+  File "C:\Users\Anuj Tewari\AppData\Roaming\Python\Python312\site-packages\starlette\middleware\base.py", line 151, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\Anuj Tewari\AppData\Roaming\Python\Python312\site-packages\starlette\middleware\base.py", line 189, in __call__
+    with collapse_excgroups():
+  File "C:\Program Files\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Users\Anuj Tewari\AppData\Roaming\Python\Python312\site-packages\starlette\_utils.py", line 93, in collapse_excgroups
+    raise exc
+  File "C:\Users\Anuj Tewari\AppData\Roaming\Python\Python312\site-packages\starlette\middleware\base.py", line 191, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anuj Tewari\AppData\Roaming\Python\Python312\site-packages\chromadb\server\fastapi\__init__.py", line 96, in check_http_version_middleware
+    return await call_next(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anuj Tewari\AppData\Roaming\Python\Python312\site-packages\starlette\middleware\base.py", line 165, in call_next
+    raise app_exc
+  File "C:\Users\Anuj Tewari\AppData\Roaming\Python\Python312\site-packages\starlette\middleware\base.py", line 151, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\Anuj Tewari\AppData\Roaming\Python\Python312\site-packages\starlette\middleware\exceptions.py", line 65, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\Anuj Tewari\AppData\Roaming\Python\Python312\site-packages\starlette\_exception_handler.py", line 64, in wrapped_app
+    raise exc
+  File "C:\Users\Anuj Tewari\AppData\Roaming\Python\Python312\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\Anuj Tewari\AppData\Roaming\Python\Python312\site-packages\starlette\routing.py", line 756, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\Anuj Tewari\AppData\Roaming\Python\Python312\site-packages\starlette\routing.py", line 776, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\Anuj Tewari\AppData\Roaming\Python\Python312\site-packages\starlette\routing.py", line 297, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\Anuj Tewari\AppData\Roaming\Python\Python312\site-packages\starlette\routing.py", line 77, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\Anuj Tewari\AppData\Roaming\Python\Python312\site-packages\starlette\_exception_handler.py", line 64, in wrapped_app
+    raise exc
+  File "C:\Users\Anuj Tewari\AppData\Roaming\Python\Python312\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\Anuj Tewari\AppData\Roaming\Python\Python312\site-packages\starlette\routing.py", line 72, in app
+    response = await func(request)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anuj Tewari\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anuj Tewari\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 193, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anuj Tewari\AppData\Roaming\Python\Python312\site-packages\starlette\concurrency.py", line 42, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anuj Tewari\AppData\Roaming\Python\Python312\site-packages\anyio\to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anuj Tewari\AppData\Roaming\Python\Python312\site-packages\anyio\_backends\_asyncio.py", line 2144, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\Users\Anuj Tewari\AppData\Roaming\Python\Python312\site-packages\anyio\_backends\_asyncio.py", line 851, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anuj Tewari\AppData\Roaming\Python\Python312\site-packages\chromadb\telemetry\opentelemetry\__init__.py", line 127, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anuj Tewari\AppData\Roaming\Python\Python312\site-packages\chromadb\auth\fastapi.py", line 241, in wrapped
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anuj Tewari\AppData\Roaming\Python\Python312\site-packages\chromadb\server\fastapi\__init__.py", line 415, in create_collection
+    return self._api.create_collection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anuj Tewari\AppData\Roaming\Python\Python312\site-packages\chromadb\telemetry\opentelemetry\__init__.py", line 127, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anuj Tewari\AppData\Roaming\Python\Python312\site-packages\chromadb\api\segment.py", line 167, in create_collection
+    coll, created = self._sysdb.create_collection(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anuj Tewari\AppData\Roaming\Python\Python312\site-packages\chromadb\telemetry\opentelemetry\__init__.py", line 127, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anuj Tewari\AppData\Roaming\Python\Python312\site-packages\chromadb\db\mixins\sysdb.py", line 225, in create_collection
+    raise UniqueConstraintError(f"Collection {name} already exists")
+chromadb.db.base.UniqueConstraintError: Collection testrules already exists
+[32mINFO[0m:     [20-09-2024 19:08:06] ::1:58855 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 500
+[32mINFO[0m:     [20-09-2024 19:08:19] ::1:58867 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[31mERROR[0m:    [20-09-2024 19:09:00] Collection testrules1 already exists
+Traceback (most recent call last):
+  File "C:\Users\Anuj Tewari\AppData\Roaming\Python\Python312\site-packages\anyio\streams\memory.py", line 97, in receive
+    return self.receive_nowait()
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anuj Tewari\AppData\Roaming\Python\Python312\site-packages\anyio\streams\memory.py", line 92, in receive_nowait
+    raise WouldBlock
+anyio.WouldBlock
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Anuj Tewari\AppData\Roaming\Python\Python312\site-packages\starlette\middleware\base.py", line 159, in call_next
+    message = await recv_stream.receive()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anuj Tewari\AppData\Roaming\Python\Python312\site-packages\anyio\streams\memory.py", line 112, in receive
+    raise EndOfStream
+anyio.EndOfStream
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Anuj Tewari\AppData\Roaming\Python\Python312\site-packages\chromadb\server\fastapi\__init__.py", line 82, in catch_exceptions_middleware
+    return await call_next(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anuj Tewari\AppData\Roaming\Python\Python312\site-packages\starlette\middleware\base.py", line 165, in call_next
+    raise app_exc
+  File "C:\Users\Anuj Tewari\AppData\Roaming\Python\Python312\site-packages\starlette\middleware\base.py", line 151, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\Anuj Tewari\AppData\Roaming\Python\Python312\site-packages\starlette\middleware\base.py", line 189, in __call__
+    with collapse_excgroups():
+  File "C:\Program Files\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Users\Anuj Tewari\AppData\Roaming\Python\Python312\site-packages\starlette\_utils.py", line 93, in collapse_excgroups
+    raise exc
+  File "C:\Users\Anuj Tewari\AppData\Roaming\Python\Python312\site-packages\starlette\middleware\base.py", line 191, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anuj Tewari\AppData\Roaming\Python\Python312\site-packages\chromadb\server\fastapi\__init__.py", line 96, in check_http_version_middleware
+    return await call_next(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anuj Tewari\AppData\Roaming\Python\Python312\site-packages\starlette\middleware\base.py", line 165, in call_next
+    raise app_exc
+  File "C:\Users\Anuj Tewari\AppData\Roaming\Python\Python312\site-packages\starlette\middleware\base.py", line 151, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\Anuj Tewari\AppData\Roaming\Python\Python312\site-packages\starlette\middleware\exceptions.py", line 65, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\Anuj Tewari\AppData\Roaming\Python\Python312\site-packages\starlette\_exception_handler.py", line 64, in wrapped_app
+    raise exc
+  File "C:\Users\Anuj Tewari\AppData\Roaming\Python\Python312\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\Anuj Tewari\AppData\Roaming\Python\Python312\site-packages\starlette\routing.py", line 756, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\Anuj Tewari\AppData\Roaming\Python\Python312\site-packages\starlette\routing.py", line 776, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\Anuj Tewari\AppData\Roaming\Python\Python312\site-packages\starlette\routing.py", line 297, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\Anuj Tewari\AppData\Roaming\Python\Python312\site-packages\starlette\routing.py", line 77, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\Anuj Tewari\AppData\Roaming\Python\Python312\site-packages\starlette\_exception_handler.py", line 64, in wrapped_app
+    raise exc
+  File "C:\Users\Anuj Tewari\AppData\Roaming\Python\Python312\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\Anuj Tewari\AppData\Roaming\Python\Python312\site-packages\starlette\routing.py", line 72, in app
+    response = await func(request)
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anuj Tewari\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 278, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anuj Tewari\AppData\Roaming\Python\Python312\site-packages\fastapi\routing.py", line 193, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anuj Tewari\AppData\Roaming\Python\Python312\site-packages\starlette\concurrency.py", line 42, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anuj Tewari\AppData\Roaming\Python\Python312\site-packages\anyio\to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anuj Tewari\AppData\Roaming\Python\Python312\site-packages\anyio\_backends\_asyncio.py", line 2144, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\Users\Anuj Tewari\AppData\Roaming\Python\Python312\site-packages\anyio\_backends\_asyncio.py", line 851, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anuj Tewari\AppData\Roaming\Python\Python312\site-packages\chromadb\telemetry\opentelemetry\__init__.py", line 127, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anuj Tewari\AppData\Roaming\Python\Python312\site-packages\chromadb\auth\fastapi.py", line 241, in wrapped
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anuj Tewari\AppData\Roaming\Python\Python312\site-packages\chromadb\server\fastapi\__init__.py", line 415, in create_collection
+    return self._api.create_collection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anuj Tewari\AppData\Roaming\Python\Python312\site-packages\chromadb\telemetry\opentelemetry\__init__.py", line 127, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anuj Tewari\AppData\Roaming\Python\Python312\site-packages\chromadb\api\segment.py", line 167, in create_collection
+    coll, created = self._sysdb.create_collection(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anuj Tewari\AppData\Roaming\Python\Python312\site-packages\chromadb\telemetry\opentelemetry\__init__.py", line 127, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Anuj Tewari\AppData\Roaming\Python\Python312\site-packages\chromadb\db\mixins\sysdb.py", line 225, in create_collection
+    raise UniqueConstraintError(f"Collection {name} already exists")
+chromadb.db.base.UniqueConstraintError: Collection testrules1 already exists
+[32mINFO[0m:     [20-09-2024 19:09:00] ::1:58880 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 500
+[32mINFO[0m:     [20-09-2024 19:09:10] ::1:58889 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 19:11:31] ::1:58906 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 19:17:47] ::1:59150 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 19:18:46] ::1:59172 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 19:20:20] ::1:59191 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 19:24:31] ::1:59247 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [20-09-2024 19:25:38] Starting component PersistentLocalHnswSegment
+[32mINFO[0m:     [20-09-2024 19:25:38] ::1:59287 - "POST /api/v1/collections/09c8c7a0-6bd5-4132-a98d-05ef97749767/add HTTP/1.1" 201
+[33mWARNING[0m:  [20-09-2024 19:50:59] chroma_server_nofile is not supported on Windows. chroma_server_nofile will not be set.
+[32mINFO[0m:     [20-09-2024 19:50:59] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[36mDEBUG[0m:    [20-09-2024 19:50:59] Starting component System
+[36mDEBUG[0m:    [20-09-2024 19:50:59] Starting component OpenTelemetryClient
+[36mDEBUG[0m:    [20-09-2024 19:50:59] Starting component SimpleAssignmentPolicy
+[36mDEBUG[0m:    [20-09-2024 19:50:59] Starting component SqliteDB
+[36mDEBUG[0m:    [20-09-2024 19:50:59] Starting component QuotaEnforcer
+[36mDEBUG[0m:    [20-09-2024 19:50:59] Starting component Posthog
+[36mDEBUG[0m:    [20-09-2024 19:50:59] Starting component LocalSegmentManager
+[36mDEBUG[0m:    [20-09-2024 19:50:59] Starting component SegmentAPI
+[32mINFO[0m:     [20-09-2024 19:50:59] Started server process [[36m388[0m]
+[32mINFO[0m:     [20-09-2024 19:50:59] Waiting for application startup.
+[32mINFO[0m:     [20-09-2024 19:50:59] Application startup complete.
+[32mINFO[0m:     [20-09-2024 19:50:59] Uvicorn running on [1mhttp://localhost:8000[0m (Press CTRL+C to quit)
+[32mINFO[0m:     [20-09-2024 19:53:12] ::1:50460 - "GET /api/v1/collections/testrules7?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [20-09-2024 19:53:13] Starting component PersistentLocalHnswSegment
+[32mINFO[0m:     [20-09-2024 19:53:13] ::1:50460 - "POST /api/v1/collections/09c8c7a0-6bd5-4132-a98d-05ef97749767/query HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 19:54:11] ::1:50483 - "GET /api/v1/collections/testrules7?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 19:54:12] ::1:50483 - "POST /api/v1/collections/09c8c7a0-6bd5-4132-a98d-05ef97749767/query HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 19:55:36] ::1:50504 - "GET /api/v1/collections/testrules7?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 19:55:37] ::1:50504 - "POST /api/v1/collections/09c8c7a0-6bd5-4132-a98d-05ef97749767/query HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 19:59:26] ::1:50560 - "GET /api/v1/collections/testrules7?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 19:59:26] ::1:50560 - "POST /api/v1/collections/09c8c7a0-6bd5-4132-a98d-05ef97749767/query HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 20:01:19] ::1:50573 - "GET /api/v1/collections/testrules7?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 20:01:20] ::1:50573 - "POST /api/v1/collections/09c8c7a0-6bd5-4132-a98d-05ef97749767/query HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 20:01:43] ::1:50579 - "GET /api/v1/collections/testrules7?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 20:01:44] ::1:50579 - "POST /api/v1/collections/09c8c7a0-6bd5-4132-a98d-05ef97749767/query HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 20:02:12] ::1:50584 - "GET /api/v1/collections/testrules7?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 20:02:13] ::1:50584 - "POST /api/v1/collections/09c8c7a0-6bd5-4132-a98d-05ef97749767/query HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 20:02:59] ::1:50598 - "GET /api/v1/collections/testrules7?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 20:03:00] ::1:50598 - "POST /api/v1/collections/09c8c7a0-6bd5-4132-a98d-05ef97749767/query HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 20:03:50] ::1:50614 - "GET /api/v1/collections/testrules7?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 20:03:50] ::1:50614 - "POST /api/v1/collections/09c8c7a0-6bd5-4132-a98d-05ef97749767/query HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 20:04:44] ::1:50631 - "GET /api/v1/collections/testrules7?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 20:04:45] ::1:50631 - "POST /api/v1/collections/09c8c7a0-6bd5-4132-a98d-05ef97749767/query HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 20:05:47] ::1:50641 - "GET /api/v1/collections/testrules7?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 20:05:47] ::1:50641 - "POST /api/v1/collections/09c8c7a0-6bd5-4132-a98d-05ef97749767/query HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 20:06:22] ::1:50650 - "GET /api/v1/collections/testrules7?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 20:06:22] ::1:50650 - "POST /api/v1/collections/09c8c7a0-6bd5-4132-a98d-05ef97749767/query HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 20:06:50] ::1:50655 - "GET /api/v1/collections/testrules7?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 20:06:51] ::1:50655 - "POST /api/v1/collections/09c8c7a0-6bd5-4132-a98d-05ef97749767/query HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 20:07:27] ::1:50668 - "GET /api/v1/collections/testrules7?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 20:07:28] ::1:50668 - "POST /api/v1/collections/09c8c7a0-6bd5-4132-a98d-05ef97749767/query HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 20:07:41] ::1:50673 - "GET /api/v1/collections/testrules7?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 20:07:42] ::1:50673 - "POST /api/v1/collections/09c8c7a0-6bd5-4132-a98d-05ef97749767/query HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 20:08:18] ::1:50678 - "GET /api/v1/collections/testrules7?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [20-09-2024 20:08:19] ::1:50678 - "POST /api/v1/collections/09c8c7a0-6bd5-4132-a98d-05ef97749767/query HTTP/1.1" 200
+[32mINFO[0m:     [21-09-2024 00:13:57] ::1:52741 - "GET /api/v1/collections/testrules7?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [21-09-2024 00:13:58] ::1:52741 - "POST /api/v1/collections/09c8c7a0-6bd5-4132-a98d-05ef97749767/query HTTP/1.1" 200
+[33mWARNING[0m:  [21-09-2024 05:11:06] chroma_server_nofile is not supported on Windows. chroma_server_nofile will not be set.
+[32mINFO[0m:     [21-09-2024 05:11:07] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[36mDEBUG[0m:    [21-09-2024 05:11:07] Starting component System
+[36mDEBUG[0m:    [21-09-2024 05:11:07] Starting component OpenTelemetryClient
+[36mDEBUG[0m:    [21-09-2024 05:11:07] Starting component SimpleAssignmentPolicy
+[36mDEBUG[0m:    [21-09-2024 05:11:07] Starting component SqliteDB
+[36mDEBUG[0m:    [21-09-2024 05:11:07] Starting component QuotaEnforcer
+[36mDEBUG[0m:    [21-09-2024 05:11:07] Starting component Posthog
+[36mDEBUG[0m:    [21-09-2024 05:11:07] Starting component LocalSegmentManager
+[36mDEBUG[0m:    [21-09-2024 05:11:07] Starting component SegmentAPI
+[32mINFO[0m:     [21-09-2024 05:11:07] Started server process [[36m17600[0m]
+[32mINFO[0m:     [21-09-2024 05:11:07] Waiting for application startup.
+[32mINFO[0m:     [21-09-2024 05:11:07] Application startup complete.
+[32mINFO[0m:     [21-09-2024 05:11:07] Uvicorn running on [1mhttp://localhost:8000[0m (Press CTRL+C to quit)

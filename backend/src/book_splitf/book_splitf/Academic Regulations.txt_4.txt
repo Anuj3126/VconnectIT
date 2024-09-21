@@ -1,0 +1,40 @@
+approved by the Academic Council. Once approved by the Academic Council, it is mandatory for the 
+course teacher to teach the course as specified in the syllabus in total. Any subsequent modifications 
+carried out with the approval of the Academic Council will be indicated by a change in the syllabus 
+version number. An increment by one indicates a major change and minor changes shall be indicated 
+by a change in the number after the decimal. For example, change from Version 1.0 to Version 2.0 
+FFCS Academic Regulations - Version 4.0
+5 
+indicates major change in the syllabus, whereas a change from Version 1.0 to 1.1 indicates a minor 
+change in the syllabus.
+A Course Committee consisting of a minimum of three faculty members who have taught the course 
+in the past or currently teaching, shall be created and the syllabi of that course will be assigned to 
+the Course Committee for content creation, modification, recommending course equivalences, and 
+other related processes. School Deans may nominate the members or alternate them periodically. 
+Course Committee is considered to be responsible for the syllabus. The School which originally 
+created the syllabus for offering the course is deemed to be its owner. 
+4.4 Course Plan
+A course plan consists of a list of lectures/ experiments carried out in each instructional class/ lab by 
+the course teacher during the semester as per the LTPC of the course, with details like mode of 
+delivery, reference material used, and others. One credit in a course requires, 15 lecture hours for 
+theory, 15 hours for tutorial, a minimum of 30 hours of laboratory work, within the regular semester 
+period or in a summer/ weekend intra semester period, as specified in the Academic Calendar of the 
+University. Separate course plans need to be prepared for the theory/laboratory of any course. Lab 
+exercises and projects given to students should reflect the syllabus content of the course.
+4.5 Course Flowchart
+A flowchart describing how various courses under Foundation Core, Discipline Linked Engineering 
+Courses, Discipline Core, Discipline Elective/ Specialization Elective, Open Elective, Skill Enhancement
+Courses, Ability Enhancement Courses and Project and Internship are connected through 
+prerequisites, if any, shall be shown and made part of the curriculum. Standard pictorial 
+representations are adopted to indicate the basket it belongs to and grouped in such a way to 
+indicate its proposed semester of offering. Necessary pre-, anti-, co-requisites and its LTPC are
+indicated for each course along with its course code.
+4.6 Course Types
+Courses may be classified as Theory only, Lab only, Theory and Lab embedded courses. Certain 
+courses like Summer Internships, Research Project, Dissertation, Industrial Internship Project-I, 
+Project-II, Study Oriented Project, Design Project, Internship-I, Internship-II, Dissertation-I, 
+Dissertation-II are grouped under “Project and Internship”. Courses such as TARP, Reading course / 
+Design Project / Laboratory Product Project / Development Project / Simulation Project are generally 
+grouped under ‘Project type’ courses, with evaluation criteria as specified in the syllabus or based on 
+its evaluation criteria. 
+FFCS Academic Regulations - Version 4.0

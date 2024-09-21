@@ -1,0 +1,40 @@
+all weeks of the semester, shall also be considered as one Instructional Unit or one Credit. Thus, the 
+LTPC for each course indicates the number of credits delivered as Lecture (L), Tutorial (T), Practical 
+(P) and the total instructional delivery indicated as Credits (C).
+Example:
+An LTPC of 2-1-2-4 means 2 instructional units based on class room lecture (L), one instructional unit 
+of tutorial (T), one laboratory (P) based instructional unit (of 100 minutes) - all delivered during a 
+calendar week, and repeated for the entire duration of the semester to earn four credit (C) after 
+passing the course.
+6.2 Minimum Credit Requirement
+The minimum credit requirement for the completion of a programme for students admitted is clearly 
+specified in the programme curriculum. Further, the student has to meet the course and credit 
+distribution under various heads as specified under 4.2, as specified in the curriculum to become 
+eligible for the degree. Due to various features of FFCS, it is possible for a student to attain the 
+minimum credit requirement without completing all requisite courses/credits under individual heads 
+like Foundation Core (FC) , Discipline Linked Engineering Courses (DLE) , Discipline Core (DC) , Discipline 
+Elective (DE) / Specialization Elective (SE) , Open Elective (OE), Skill Enhancement Courses (SEC), Ability 
+Enhancement Courses (AEC) and Project and Internship as defined in their curriculum. Under such 
+circumstances, though the student has attained the minimum credits, it is mandatory for the student 
+to complete all courses under FC, DLE and DC and also to meet the credit requirements under OE / DE 
+/ SE / SEC / AEC and other heads as per Section 4.2. to become eligible for the degree.
+FFCS Academic Regulations - Version 4.0
+8 
+6.3 Course Distribution 
+The curriculum of each programme consists of courses that are grouped into Foundation Core, 
+Discipline Linked Engineering Courses, Discipline Core, Discipline Elective/ Specialization Elective, 
+Open Elective, Skill Enhancement Courses, Ability Enhancement Courses, Value Added Courses, 
+English Language Courses, Foreign Language Courses, Major Courses, Minor Courses, Compulsory 
+Courses, Compulsory Clinical Courses, Optional Courses, Honours Courses, and Project and 
+Internship.
+6.3.1 Foundation Core (FC)
+Courses listed under FC are foundational courses mandatory to that programme. These courses are 
+basic in nature and are expected to enhance student’s knowledge in various disciplines apart from 
+his/her own discipline. FC courses may be added, removed or modified from time to time by the 
+Academic Council. In few cases, a minimum credit requirement may be fixed to be met by taking one 
+or more courses offered in a basket.
+Example: FC specifies that each student should take a foreign language course(s) and Humanities,
+Science and Management (HSM) Electives. This can be met by taking any course offered from a 
+basket of foreign language courses and basket of HSM Electives. 
+6.3.2 Discipline Core (DC)
+Courses listed under DC of a curriculum are mandatory to the specific programme. Students have to 

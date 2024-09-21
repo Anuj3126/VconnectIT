@@ -1,0 +1,40 @@
+There is no provision for re-evaluation in case of Lab/ Practical exams, Soft Skills, Student Project viva 
+voce exam or Seminar/ Design/ Mini-project courses or a component of exam of type ‘project’ and 
+also for comprehensive examination. The final grades awarded to each subject will be announced by 
+the University and the same will be made available to students as well as the parents. In courses 
+where the class average is 90% and above, the FAT answer papers will be re-evaluated by another 
+FFCS Academic Regulations - Version 4.0
+27
+faculty handling the same course/ taken that course in an earlier semester/ by a faculty drawn from 
+the Course Committee. Being a rare situation, the faculty may be asked to provide an explanation 
+for the high class average.
+9.10 Calculation of Grade Point Average
+The Grade Point Average (GPA) earned by a student is a quantitative indication of his/her 
+performance in a semester. GPA is the weighted average of the grade points obtained in all the 
+courses registered (after add/drop/ withdrawal) by the student during the semester. For each course 
+registered, the grade points earned is multiplied by the credits for that course. The sum of all such 
+grade point-credits product is divided by the total credits registered in that semester to get the GPA 
+of that semester.
+The Cumulative Grade Point Average (CGPA), which indicates the overall performance of a student 
+from the time he/she joined the University to a specific semester, is obtained by calculating the 
+weighted average of the grade points obtained in all the courses registered by the student since the 
+first semester. Both GPA and CGPA are calculated as follows at the end of every semester and 
+indicated in the Grade Sheet. 
+𝐶𝐶𝐶𝐶𝐶𝐶𝐶𝐶 = 
+∑𝑖𝑖(𝐶𝐶𝑖𝑖 ∗ 𝐺𝐺𝐺𝐺)
+∑ 𝐶𝐶𝑖𝑖𝑖𝑖
+where, Ci is the number of credits for i
+th course, and GP is the grade points earned for that course. i 
+includes all the courses registered in all semesters including those in which the student has an ‘F’ 
+grade. If a student had failed more than once in a course or substituted a course, the credits will appear 
+only once, both in the numerator and denominator. Pass-Fail (‘P’ grade), audit courses and courses 
+taken towards ‘Minor’ or ‘Honours’ are not counted for the calculation of GPA or CGPA of the 
+programme. The Consolidated Grade Sheet or Degree Certificate will not mention any ‘class’ or 
+whatsoever, except the CGPA. GPA/ CGPA will be indicated by rounding-up the actual values to two 
+decimal places.
+% equivalent of CGPA = CGPA * 10
+For example, a CGPA of 8.75 is considered equivalent to 87.5% (CGPA of 8.75 x 10 = 87.5%). 
+Controller of Examinations will issue necessary certificates to students who request for CGPA to 
+percentage equivalence of marks. 
+FFCS Academic Regulations - Version 4.0
+28

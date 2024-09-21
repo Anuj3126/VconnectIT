@@ -1,0 +1,40 @@
+22
+Table 4: Letter grades and corresponding grade points.
+Letter 
+Grade
+Grade 
+Point
+Remarks
+S 10 Pass in the Course
+Performance Grades
+A 9 Pass in the Course
+B 8 Pass in the Course
+C 7 Pass in the Course
+D 6 Pass in the Course
+E 5 Pass in the Course
+F Zero Failed in the course by not securing the minimum marks 
+required 
+N Zero Not cleared one or more component(s) of a course (Theory/ Lab/ 
+Project-Component)/ Debarred from writing FAT/ Absent in FAT
+/ Malpractice in exams/ Acts of indiscipline
+W - Course registration Withdrawn from a credit/ Audit course
+U - Successfully completed an Audit Course
+P - Passed in a ‘Pass-Fail’ course
+A student is declared to have passed/ cleared a course, if he/she has earned any one of the following 
+grades: ‘S, A, B, C, D, E or P, called the ‘Performance Grades’. Overall grade in a course is based on 
+the credit ratio of course components (L+T: P).
+The letter grade ‘F’ will be awarded under the following circumstances. 
+I. Students who fail to clear a course due to their poor performance in the course. 
+II. If a student clears all the components individually but if the grand total of that course does 
+not meet the passing range then “F” grade is awarded. 
+To clear an ‘F’ grade, students should re-register the course in the subsequent semester(s).
+The letter grade ‘N’ will be awarded under the following circumstances. 
+ Students who have not cleared one or more component(s) of a course (Theory/ Lab).
+ Students who are debarred in writing FAT due to lack of attendance.
+ Students who are absent during FAT.
+ Students debarred due to acts of indiscipline/ exam malpractice 
+Students who fail to write the FAT due to valid medical reasons will be initially awarded an ‘N’ grade. 
+They are eligible to apply for Re-FAT as indicated in Section 9.11. If they fail to appear for the Re-FAT
+FFCS Academic Regulations - Version 4.0
+23
+as per the schedule for any reason – including medical or non-medical, the grade ‘N’ already awarded 
