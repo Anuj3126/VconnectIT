@@ -199,15 +199,17 @@ const Home = () => {
             display: "flex",
             width: "100%",
             justifyContent: "center",
-            gap: 10,
+            gap: 7,
             marginTop: 15,
+            marginLeft: 2,
+            marginRight: 2,
           }}
         >
           {/* Pass different paths and labels as props to each GlowButton */}
-          <GlowButton onClick={() => handleButtonClick("/chat")} label="ChatBot" />
-          <GlowButton onClick={() => handleButtonClick("/hostel")} label="Hostel & Mess" />
-          <GlowButton onClick={() => handleButtonClick("/map")} label="Maps" />
-          <GlowButton onClick={() => handleButtonClick("/community")} label="Community" />
+          <GlowButton onClick={() => handleButtonClick("/chat")} label="ChatBot" imageSrc="chatbot.png" />
+          <GlowButton onClick={() => handleButtonClick("/hostel")} label="Hostel & Mess" imageSrc="hostelimg.png" />
+          <GlowButton onClick={() => handleButtonClick("/map")} label="Maps" imageSrc="maps.png" />
+          <GlowButton onClick={() => handleButtonClick("/community")} label="Community" imageSrc="community.webp" />
         </Box>
       </Box>
     </Box>

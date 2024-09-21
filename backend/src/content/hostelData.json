@@ -1,0 +1,89 @@
+[
+    {
+        "index": 0,
+        "name": "A-Block",
+        "data": {
+            "sum": "Nestled in tranquility, A Block is a serene enclave offering students respite from campus bustle. Sparse crowds foster an atmosphere of quiet study and relaxation, making it an ideal retreat for those seeking peaceful contemplation amidst academic pursuits.",
+            "ameneties": {
+                "Shops": "Yes",
+                "Courts": "Yes",
+                "Canteen": "Yes",
+                "Sick Room": "Yes"
+            },
+            "mess": {
+                "Veg": "PR Veg Mess",
+                "Non-Veg": "Fusion Non-Veg Mess",
+                "Special": "Buddies and Bites"
+            },
+            "floor_plan": "https://drive.google.com/file/d/1RbGGHiXoIhbzdbn6eL7YinVjXMabRQxk/preview",
+            "room_t_no": 7,
+            "room": {
+                "2": { 
+                    "AC": { "count": 10, "link": "https://drive.google.com/file/d/1RbGGHiXoIhbzdbn6eL7YinVjXMabRQxk/preview" },
+                    "NAC": { "count": 0, "link": "" }
+                },
+                "3": { 
+                    "AC": { "count": 10, "link": "https://drive.google.com/file/d/1RbGGHiXoIhbzdbn6eL7YinVjXMabRQxk/preview" },
+                    "NAC": { "count": 0, "link": "" }
+                },
+                "4": { 
+                    "AC": { "count": 10, "link": "https://drive.google.com/file/d/1RbGGHiXoIhbzdbn6eL7YinVjXMabRQxk/preview" },
+                    "NAC": { "count": 0, "link": "" }
+                },
+                "6": { 
+                    "AC": { "count": 10, "link": "https://drive.google.com/file/d/1RbGGHiXoIhbzdbn6eL7YinVjXMabRQxk/preview" },
+                    "NAC": { "count": 0, "link": "" }
+                },
+                "8": { 
+                    "AC": { "count": 10, "link": "https://drive.google.com/file/d/1RbGGHiXoIhbzdbn6eL7YinVjXMabRQxk/preview" },
+                    "NAC": { "count": 0, "link": "" }
+                }
+            }
+        },
+        "B_image": "./Pictures/Hostels/A.jpg"
+    },
+
+    {
+        "index": 1,
+        "name": "A-Block",
+        "data": {
+            "sum": "Nestled in tranquility, A Block is a serene enclave offering students respite from campus bustle. Sparse crowds foster an atmosphere of quiet study and relaxation, making it an ideal retreat for those seeking peaceful contemplation amidst academic pursuits.",
+            "ameneties": {
+                "Shops": "Yes",
+                "Courts": "Yes",
+                "Canteen": "Yes",
+                "Sick Room": "Yes"
+            },
+            "mess": {
+                "Veg": "PR Veg Mess",
+                "Non-Veg": "Fusion Non-Veg Mess",
+                "Special": "Buddies and Bites"
+            },
+            "floor_plan": "https://drive.google.com/file/d/1RbGGHiXoIhbzdbn6eL7YinVjXMabRQxk/preview",
+            "room_t_no": 7,
+            "room": {
+                "2": { 
+                    "AC": { "count": 10, "link": "https://drive.google.com/file/d/1RbGGHiXoIhbzdbn6eL7YinVjXMabRQxk/preview" },
+                    "NAC": { "count": 0, "link": "" }
+                },
+                "3": { 
+                    "AC": { "count": 10, "link": "https://drive.google.com/file/d/1RbGGHiXoIhbzdbn6eL7YinVjXMabRQxk/preview" },
+                    "NAC": { "count": 0, "link": "" }
+                },
+                "4": { 
+                    "AC": { "count": 10, "link": "https://drive.google.com/file/d/1RbGGHiXoIhbzdbn6eL7YinVjXMabRQxk/preview" },
+                    "NAC": { "count": 0, "link": "" }
+                },
+                "6": { 
+                    "AC": { "count": 10, "link": "https://drive.google.com/file/d/1RbGGHiXoIhbzdbn6eL7YinVjXMabRQxk/preview" },
+                    "NAC": { "count": 0, "link": "" }
+                },
+                "8": { 
+                    "AC": { "count": 10, "link": "https://drive.google.com/file/d/1RbGGHiXoIhbzdbn6eL7YinVjXMabRQxk/preview" },
+                    "NAC": { "count": 0, "link": "" }
+                }
+            }
+        },
+        "B_image": "./Pictures/Hostels/A.jpg"
+    }
+]

@@ -2,6 +2,7 @@ import { Route, Routes } from "react-router-dom";
 import Header from "./components/Header";
 import Chat from "./pages/Chat";
 import Home from "./pages/Home";
+import Hostel_Mess from "./pages/Hostel_Mess";
 import LoginSignup from "./pages/LoginSignUp";
 import NotFound from "./pages/NotFound";
 // import Signup from "./pages/Signup";
@@ -15,9 +16,8 @@ function App() {
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/login" element={<LoginSignup />} />
-      {/* <Route path="/login" element={<Login />} />
-      <Route path="/signup" element={<Signup />} /> */}
       <Route path="/chat" element={<Chat />} />
+      <Route path="/hostel-mess" element={<Hostel_Mess />}/>
       <Route path="*" element={<NotFound />} />
     </Routes>
   </main>
