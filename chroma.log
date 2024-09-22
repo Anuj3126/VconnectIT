@@ -342,3 +342,31 @@ chromadb.db.base.UniqueConstraintError: Collection testrules1 already exists
 [32mINFO[0m:     [22-09-2024 21:05:19] Waiting for application startup.
 [32mINFO[0m:     [22-09-2024 21:05:19] Application startup complete.
 [32mINFO[0m:     [22-09-2024 21:05:19] Uvicorn running on [1mhttp://localhost:8000[0m (Press CTRL+C to quit)
+[33mWARNING[0m:  [23-09-2024 00:38:24] chroma_server_nofile is not supported on Windows. chroma_server_nofile will not be set.
+[32mINFO[0m:     [23-09-2024 00:38:24] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[36mDEBUG[0m:    [23-09-2024 00:38:24] Starting component System
+[36mDEBUG[0m:    [23-09-2024 00:38:24] Starting component OpenTelemetryClient
+[36mDEBUG[0m:    [23-09-2024 00:38:24] Starting component SimpleAssignmentPolicy
+[36mDEBUG[0m:    [23-09-2024 00:38:24] Starting component SqliteDB
+[36mDEBUG[0m:    [23-09-2024 00:38:24] Starting component QuotaEnforcer
+[36mDEBUG[0m:    [23-09-2024 00:38:24] Starting component Posthog
+[36mDEBUG[0m:    [23-09-2024 00:38:24] Starting component LocalSegmentManager
+[36mDEBUG[0m:    [23-09-2024 00:38:24] Starting component SegmentAPI
+[32mINFO[0m:     [23-09-2024 00:38:24] Started server process [[36m23264[0m]
+[32mINFO[0m:     [23-09-2024 00:38:24] Waiting for application startup.
+[32mINFO[0m:     [23-09-2024 00:38:24] Application startup complete.
+[32mINFO[0m:     [23-09-2024 00:38:24] Uvicorn running on [1mhttp://localhost:8000[0m (Press CTRL+C to quit)
+[33mWARNING[0m:  [23-09-2024 00:40:12] chroma_server_nofile is not supported on Windows. chroma_server_nofile will not be set.
+[32mINFO[0m:     [23-09-2024 00:40:13] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[36mDEBUG[0m:    [23-09-2024 00:40:13] Starting component System
+[36mDEBUG[0m:    [23-09-2024 00:40:13] Starting component OpenTelemetryClient
+[36mDEBUG[0m:    [23-09-2024 00:40:13] Starting component SimpleAssignmentPolicy
+[36mDEBUG[0m:    [23-09-2024 00:40:13] Starting component SqliteDB
+[36mDEBUG[0m:    [23-09-2024 00:40:13] Starting component QuotaEnforcer
+[36mDEBUG[0m:    [23-09-2024 00:40:13] Starting component Posthog
+[36mDEBUG[0m:    [23-09-2024 00:40:13] Starting component LocalSegmentManager
+[36mDEBUG[0m:    [23-09-2024 00:40:13] Starting component SegmentAPI
+[32mINFO[0m:     [23-09-2024 00:40:13] Started server process [[36m25336[0m]
+[32mINFO[0m:     [23-09-2024 00:40:13] Waiting for application startup.
+[32mINFO[0m:     [23-09-2024 00:40:13] Application startup complete.
+[32mINFO[0m:     [23-09-2024 00:40:13] Uvicorn running on [1mhttp://localhost:8000[0m (Press CTRL+C to quit)
