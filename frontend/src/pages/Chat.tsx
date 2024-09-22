@@ -288,7 +288,7 @@ const Chat = () => {
                     sx={{
                         textAlign: "center",
                         fontSize: { md: "30px", sm: "25px", xs: "20px" },
-                        color: "white",
+                        color: "black",
                         mb: 2,
                     }}
                 >

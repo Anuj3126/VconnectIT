@@ -1,6 +1,8 @@
-import { Box, FormControl, InputLabel, MenuItem, Select } from '@mui/material';
+import { Box, FormControl, InputLabel, MenuItem, Select, SelectChangeEvent } from '@mui/material';
 import axios from 'axios';
 import React, { useEffect, useState } from 'react';
+import { useNavigate } from "react-router-dom";
+import { useAuth } from '../context/AuthContext';
 import './style.css';
 
 const Hostel_Mess: React.FC = () => {
@@ -9,16 +11,19 @@ const Hostel_Mess: React.FC = () => {
   const [popupVisible, setPopupVisible] = useState(false);
   const [popupRoomVisible, setPopupRoomVisible] = useState(false);
   const [currentSlide, setCurrentSlide] = useState(0);
-  const [roomLinks, setRoomLinks] = useState([]);
+  const [roomLinks, setRoomLinks] = useState<string[]>([]);
+
 
   const boysBlocks = ['A', 'B', 'C', 'D', 'D-Annexe', 'E', 'F', 'G', 'H', 'J', 'K', 'L', 'M', 'N', 'P', 'Q', 'R'];
   const girlsBlocks = ['A', 'B', 'C', 'D', 'E', 'F', 'G']; // Adjust as needed
 
-  const handleHostelChange = (event: React.ChangeEvent<{ value: unknown }>) => {
+  const handleHostelChange = (event: SelectChangeEvent<string>) => {
     const selectedHostel = event.target.value as string;
     setHostelType(selectedHostel);
     setBlocks(selectedHostel === 'Boys Hostel' ? boysBlocks : girlsBlocks);
   };
+
+
 
   const show = async (index: number) => {
     try {
@@ -39,7 +44,7 @@ const Hostel_Mess: React.FC = () => {
         const pic_b = document.querySelector(".p-image") as HTMLImageElement;
         if (pic_b) {
             pic_b.src = result.B_image;
-            console.log(result.B_image)
+            console.log(result.B_image);
         } else {
             console.error("Block picture element not found");
         }
@@ -142,7 +147,8 @@ const Hostel_Mess: React.FC = () => {
   const handleClosePopup = () => setPopupVisible(false);
   const handleRoomImageClick = () => setPopupRoomVisible(true);
   const handleCloseRoomPopup = () => setPopupRoomVisible(false);
-
+  const auth = useAuth();
+  const navigate = useNavigate();
   const changeSlide = (direction: number) => {
     setCurrentSlide((prev) => (prev + direction + roomLinks.length) % roomLinks.length);
   };
@@ -150,6 +156,12 @@ const Hostel_Mess: React.FC = () => {
   useEffect(() => {
     show(0); // Load initial data
   }, []);
+
+  useEffect(() => {
+    if (!auth?.user) {
+        return navigate("/login");
+    }
+}, [auth]);
 
   return (
     <Box sx={{ display: "flex", flexDirection: "row", justifyContent: "center", alignItems: "center" }}>

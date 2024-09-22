@@ -26,7 +26,7 @@ const GlowButton: React.FC<GlowButtonProps> = ({ onClick, label, imageSrc }) => 
   };
 
   const buttonHoverStyle: React.CSSProperties = {
-    boxShadow: '0 0 40px #FF8080, 0 0 40px #FF8080',
+    boxShadow: '0 0 40px #20b2aa, 0 0 40px #6f42c1, 0 0 40px #ffffff',
   };
 
   const imageStyle: React.CSSProperties = {

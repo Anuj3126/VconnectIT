@@ -1,6 +1,7 @@
 import { createContext, ReactNode, useContext, useEffect, useState } from 'react';
 import { checkAuthStatus, loginUser, logoutUser, signupUser } from '../helpers/api-communicator';
 
+
 type User = {
     name: string;
     email:string;
@@ -46,7 +47,8 @@ export const AuthProvider= ({children}:{children:ReactNode}) => {
         await logoutUser();
         setIsLoggedIn(false);
         setUser(null);
-        //window.location.reload();
+        window.location.reload();
+        window.location.href="/";
     };
 
     const value = {

@@ -135,7 +135,7 @@ const ChatItem = ({
         <Box sx={{
             display: "flex",
             p: 1,
-            bgcolor: "teal",
+            bgcolor: "#b0a8b9",
             my: 1,
             gap: 2,
             borderRadius: 5,
@@ -144,11 +144,11 @@ const ChatItem = ({
             overflowWrap: "break-word", // Handles overflow of long words
         }}>
             <Avatar sx={{ ml: "0", bgcolor: "black", color: "white" }}>
-                <img style={{ borderRadius: "10px" }} src="VconnectIT.png" alt="botify" width={"30px"} />
+                <img style={{ borderRadius: "10px" }} src="VconnectITfavicon.png" alt="botify" width={"30px"} />
             </Avatar>
             <Box style={{ overflow: "auto", alignContent: "center" }}>
                 {!messageBlocks && (
-                    <Typography sx={{ whiteSpace: "pre-wrap", fontSize: { md: "20px", xs: "15px", sm: "15px" } }}>
+                    <Typography sx={{ whiteSpace: "pre-wrap", fontSize: { md: "20px", xs: "15px", sm: "15px" } ,color:"black"}}>
                         {content}
                     </Typography>
                 )}
@@ -172,7 +172,7 @@ const ChatItem = ({
         <Box sx={{
             display: "flex",
             p: 1,
-            bgcolor: "#2C2F33",
+            bgcolor: "black",
             my: 1,
             gap: 2,
             borderRadius: 5,
@@ -180,12 +180,12 @@ const ChatItem = ({
             wordBreak: "break-word", // Ensures text wraps properly
             overflowWrap: "break-word", // Handles overflow of long words
         }}>
-            <Avatar sx={{ bgcolor: "black", color: "white", ml: "0", fontWeight: "600" }}>
+            <Avatar sx={{ bgcolor: "white", color: "black", ml: "0", fontWeight: "600" }}>
                 {auth?.user?.name[0]}{auth?.user?.name.split(" ")[1][0]}
             </Avatar>
             <Box sx={{ alignContent: "center" }}>
                 {!messageBlocks && (
-                    <Typography sx={{ whiteSpace: "pre-wrap", fontSize: { md: "20px", xs: "15px", sm: "15px" } }}>
+                    <Typography sx={{ whiteSpace: "pre-wrap", fontSize: { md: "20px", xs: "15px", sm: "15px" } ,color:"white"}}>
                         {content}
                     </Typography>
                 )}
@@ -197,7 +197,7 @@ const ChatItem = ({
                                 {block}
                             </SyntaxHighlighter>
                         ) : (
-                            <Typography sx={{ whiteSpace: "pre-wrap", fontSize: { md: "20px", xs: "15px", sm: "15px" } }}>
+                            <Typography sx={{ whiteSpace: "pre-wrap", fontSize: { md: "20px", xs: "15px", sm: "15px" },color:"black" }}>
                                 {block}
                             </Typography>
                         )

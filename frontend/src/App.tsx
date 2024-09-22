@@ -1,6 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import Header from "./components/Header";
 import Chat from "./pages/Chat";
+import ForgotPassword from "./pages/ForgotPassword";
 import Home from "./pages/Home";
 import Hostel_Mess from "./pages/Hostel_Mess";
 import LoginSignup from "./pages/LoginSignUp";
@@ -18,6 +19,7 @@ function App() {
       <Route path="/login" element={<LoginSignup />} />
       <Route path="/chat" element={<Chat />} />
       <Route path="/hostel-mess" element={<Hostel_Mess />}/>
+      <Route path="/forgotPassword" element={<ForgotPassword />} />
       <Route path="*" element={<NotFound />} />
     </Routes>
   </main>

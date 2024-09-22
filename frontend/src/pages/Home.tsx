@@ -148,6 +148,7 @@ import { useAuth } from "../context/AuthContext";
 
 const Home = () => {
   const auth = useAuth();
+  const userName = auth?.user?.name ? auth.user.name.split(" ")[0] : "there";
   const navigate = useNavigate(); // Initialize the useNavigate hook for programmatic navigation
 
   // Function to handle button click and navigate to the correct path
@@ -185,10 +186,10 @@ const Home = () => {
             fontWeight: "100",
             fontFamily: "Jura, sans-serif", // Apply Jura font
             marginTop: 20,
-            marginBottom: 15,
+            marginBottom: 5,
           }}
         >
-          Hello There
+          Hello {userName}!
         </h1>
         <Box sx={{ display: "flex", marginLeft: "3%" }}>
           <TypingAnim />
@@ -200,14 +201,14 @@ const Home = () => {
             width: "100%",
             justifyContent: "center",
             gap: 7,
-            marginTop: 15,
+            marginTop: 8,
             marginLeft: 2,
             marginRight: 2,
           }}
         >
           {/* Pass different paths and labels as props to each GlowButton */}
           <GlowButton onClick={() => handleButtonClick("/chat")} label="ChatBot" imageSrc="chatbot.png" />
-          <GlowButton onClick={() => handleButtonClick("/hostel")} label="Hostel & Mess" imageSrc="hostelimg.png" />
+          <GlowButton onClick={() => handleButtonClick("/hostel-mess")} label="Hostel & Mess" imageSrc="hostelimg.png" />
           <GlowButton onClick={() => handleButtonClick("/map")} label="Maps" imageSrc="maps.png" />
           <GlowButton onClick={() => handleButtonClick("/community")} label="Community" imageSrc="community.webp" />
         </Box>

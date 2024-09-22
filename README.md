@@ -15,6 +15,7 @@
 ## -> Color code for the website : #00FFFF and #333333 (aqua and charcoal)
 
 ## -> run "npm i" once the front end files are available and then "npm run dev" to start the front end.
+## -> npm install @emailjs/browser for emailjs...
 
 ## -> https://fonts.google.com/selection/embed --for fonts.
 ## -> https://mui.com/material-ui/getting-started/installation/ --for React UI framework.

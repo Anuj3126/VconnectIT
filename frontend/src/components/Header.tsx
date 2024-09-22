@@ -145,7 +145,7 @@ const Header = () => {
     };
 
     return (
-        <AppBar sx={{ bgcolor: "#484848", position: "static", boxShadow: "none" }}>
+        <AppBar sx={{ bgcolor: "transparent", position: "static", boxShadow: "none" }}>
             <Toolbar sx={{ display: "flex", justifyContent: "space-between" }}>
                 <Logo />
 

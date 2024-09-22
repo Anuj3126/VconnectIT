@@ -7,7 +7,11 @@ import appRouter from "./routes/index.js";
 config();
 const app = express();
 //Middlewares
-app.use(cors({ origin: "http://localhost:5173", credentials: true })); //To allow the cross sharing of information
+app.use(cors({
+    origin: "http://localhost:5173",
+    methods: ['GET', 'POST'],
+    credentials: true
+})); //To allow the cross sharing of information
 app.use(express.json());
 app.use(cookieParser(process.env.COOKIE_SECRET));
 //Remove it during production
